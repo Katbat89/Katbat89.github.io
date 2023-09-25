@@ -65,7 +65,7 @@ h3 {
 
 /*Preloader*/
 #preloader {
-  visibility: hidden;
+  visibility: visible;
   position: fixed;
   top: 0;
   left: 0;
