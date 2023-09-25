@@ -1042,7 +1042,7 @@ span {
   }
   .ppp-img {
     height: 300px;
-    margin-top: -6em;
+    margin-top: -3em;
   }
   .ppp-video {
     width: 90%;
@@ -1051,6 +1051,10 @@ span {
     margin-top: -8em;
   }
   .profile-content3 p {
+    margin-top: -7em;
+  }
+  #pp-logo {
+    padding-bottom: 10px;
     margin-top: -7em;
   }
 }/*# sourceMappingURL=style.css.map */
