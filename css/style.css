@@ -65,7 +65,7 @@ h3 {
 
 /*Preloader*/
 #preloader {
-  visibility: visible;
+  visibility: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -507,7 +507,7 @@ span {
 }
 
 .ppp {
-  background-image: url("/assets/graphics/PPP-word-logo.svg");
+  background-image: url("/assets/graphics/ppp-word-logo.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
