@@ -116,7 +116,8 @@ h3 {
 }
 
 /*main nav bar*/
-.item { /*menu icons*/
+.item {
+  /*menu icons*/
   width: 5em;
   padding-left: 5px;
   padding-right: 5px;
@@ -266,7 +267,9 @@ span {
   grid-area: 4/2/5/4;
 }
 
-.div2, .div3, .div4 {
+.div2,
+.div3,
+.div4 {
   text-align: left;
   margin-left: -80px;
   color: #fff;
@@ -276,7 +279,8 @@ span {
   font-size: 1.3rem;
 }
 
-.textInfo, .textInfo2 {
+.textInfo,
+.textInfo2 {
   margin-top: 10px;
   color: #fff;
   width: inherit;
@@ -663,72 +667,6 @@ span {
 }
 
 /*media queries*/
-@media screen and (min-width: 1440px) and (max-width: 2560px) {
-  .pre-menu-text a {
-    font-size: 3.5rem;
-  }
-  h1 {
-    font-size: 7rem;
-    padding: 25px;
-    padding-bottom: 100px;
-  }
-  #time {
-    font-size: 2rem;
-  }
-  .item {
-    width: 7em;
-  }
-  .contentBox {
-    width: 1000px;
-  }
-}
-@media screen and (max-width: 1000px) and (min-width: 800px) {
-  .contentBox {
-    width: 600px;
-  }
-}
-@media screen and (min-width: 650px) and (max-width: 800px) {
-  .pre-menu-text span::before {
-    content: "\a";
-    white-space: pre;
-  }
-  .contentBox {
-    justify-items: center;
-    width: 300px;
-    height: 200px;
-  }
-}
-@media screen and (min-width: 500px) and (max-width: 800px) {
-  .contentBox {
-    justify-items: center;
-    width: 400px;
-    height: 200px;
-  }
-  .menuContent {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
-@media screen and (min-width: 400px) and (max-width: 650px) {
-  .pre-menu-text a {
-    font-size: 1.7rem;
-  }
-  h1 {
-    font-size: 4rem;
-    padding: 25px;
-    padding-bottom: 100px;
-  }
-  .contentBox {
-    justify-items: center;
-    width: 200px;
-    height: 200px;
-    margin-bottom: 40px;
-  }
-  .menuContent {
-    flex-direction: column;
-    align-items: stretch;
-  }
-}
 @media screen and (max-width: 425px) {
   .pre-menu-text span::before {
     content: "\a";
@@ -748,5 +686,139 @@ span {
   .menuContent {
     flex-direction: column;
     align-items: stretch;
+  }
+  h1 {
+    font-size: 3rem;
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  .pre-menu-text {
+    padding-top: 50%;
+  }
+  .content1 {
+    display: none;
+  }
+  .contentBox,
+  .contentBox2 {
+    width: 250px;
+  }
+  .textInfo h2,
+  .textInfo2 h2 {
+    font-size: 1rem;
+  }
+  .contentBox {
+    height: 100px;
+  }
+  .div31 h3 {
+    font-size: 1rem;
+    margin-left: -7em;
+    padding-top: 10px;
+    width: 200px;
+  }
+  .div41 p {
+    margin-top: -2em;
+  }
+  .div51 {
+    padding-bottom: 10px;
+  }
+  .about {
+    padding-left: 15px;
+  }
+  .skills {
+    padding-left: 10px;
+  }
+  .textInfo,
+  .textInfo2 {
+    padding-left: 10px;
+  }
+  #contact p {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 2em;
+  }
+  .title2 {
+    margin-top: 11em;
+    font-size: 1rem;
+  }
+  .video {
+    width: 250px;
+  }
+  .images img {
+    width: 250px;
+  }
+  .images {
+    flex-direction: column;
+    margin-left: 0px;
+  }
+  .profile-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .video {
+    grid-area: 1/1/3/4;
+    width: 100%;
+    height: 300px;
+    margin-top: -2em;
+    margin-bottom: -3em;
+  }
+  .video video {
+    background-size: contain;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: center;
+       object-position: center;
+    height: 300px;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .images {
+    grid-area: 3/1/4/4;
+    display: inline-flex;
+    padding-right: 10px;
+    padding-top: 10px;
+    align-items: center;
+  }
+  .text {
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .text p {
+    width: 100%;
+  }
+  .video1 {
+    width: 90%;
+    height: 300px;
+    margin-top: -2em;
+    margin-bottom: -3em;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .video1-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video1-container p {
+    padding-left: 10px;
+  }
+  .profile-content2 {
+    margin-top: -1em;
+  }
+  .ppp-img {
+    height: 300px;
+    margin-top: -1em;
+  }
+  .ppp-video {
+    width: 90%;
+  }
+  .ppp-video-container {
+    margin-top: -1em;
   }
 }/*# sourceMappingURL=style.css.map */
