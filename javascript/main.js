@@ -297,7 +297,6 @@ function timeout() {
     }else
       if(time===2){
       $(".textInfo").html("<h2>Currently Listening To </h2> <br> 130 Mood: TRBL - <em>Dean</em>");
-      $(".textInfo2").html("<h2>Follow Me on Twitter</h2><p>@KatbatNYC</p>");
       time++;
     }else
     if(time===3){
